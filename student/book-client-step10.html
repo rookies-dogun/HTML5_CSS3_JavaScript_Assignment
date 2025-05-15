@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <link rel="stylesheet" type="text/css" href="css/form09.css" />
     <title>책 관리 시스템</title>
   </head>
   <body>
@@ -60,6 +60,9 @@
         </div>
 
         <button type="submit">책 등록</button>
+        <button type="button" class="cancel-btn" onclick="resetForm()" style="display: none">
+              취소
+            </button>
       </form>
     </div>
 
@@ -82,9 +85,9 @@
             <th>edition</th>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody id="bookTableBody"></tbody>
       </table>
     </div>
-    <script src="js/form.js"></script>
+    <script src="js/form10.js"></script>
   </body>
 </html>
